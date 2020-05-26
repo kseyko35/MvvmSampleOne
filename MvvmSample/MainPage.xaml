@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MvvmSample.MainPage">
+
+      <Grid>
+<ScrollView>
+         <StackLayout Padding="10" IsEnabled="{Binding !IsBusy}">
+    <Label Text="Name"/>
+    <Entry Text="{Binding Name}" Placeholder="Full Name"/>
+    
+    <Label Text="Website"/>
+    <Entry Text="{Binding Website}" Placeholder="Your Website"/>
+    
+    <StackLayout Orientation="Horizontal" Spacing="10">
+      <Label VerticalOptions="CenterAndExpand" Text="Best Friend?"/>
+      <Switch IsToggled="{Binding BestFriend}"/>
+    </StackLayout>
+     <!--<StackLayout Orientation="Horizontal" Spacing="10">
+      <Label VerticalOptions="CenterAndExpand" Text="Is Busy?"/>
+      <Switch IsToggled="{Binding IsBusy}"/>
+    </StackLayout>-->
+    
+    <Label Text="{Binding DisplayMessage}"/>
+    
+    <Button Text="Open Website" Command="{Binding LaunchWebsiteCommand}" />
+    <Button Text="Save Contact" Command="{Binding SaveContactCommand}" />
+<StackLayout Margin="0,0,0,10" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+    <Entry Text="{Binding FirstNumber}" HorizontalOptions="FillAndExpand" Placeholder="First number" Keyboard="Numeric" />
+    <Picker ItemsSource="{Binding Operations}" SelectedItem="{Binding SelectedOperations}" x:Name="mPicker"/>
+            
+    <Entry Keyboard="Numeric" Text="{Binding SecondNumber}" HorizontalOptions="FillAndExpand" Placeholder="Second number"/>
+</StackLayout>
+             <Label Text="{Binding Solution}" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+
+
+            </StackLayout>
+     </ScrollView>
+        <ActivityIndicator HorizontalOptions="Center" VerticalOptions="Center" IsRunning="{Binding IsBusy}" />
+             </Grid> 
+   
+</ContentPage>

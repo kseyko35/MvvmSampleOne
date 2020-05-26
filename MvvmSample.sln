@@ -1,0 +1,59 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmSample.Android", "MvvmSample.Android\MvvmSample.Android.csproj", "{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmSample.iOS", "MvvmSample.iOS\MvvmSample.iOS.csproj", "{7EFBD612-2274-440F-9195-067AF21379DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmSample", "MvvmSample\MvvmSample.csproj", "{7F7877EE-33EF-4B9E-B685-410C300EBBC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C2DF938A-224D-4F30-AD45-6ED9C87C33EF}.Release|iPhone.Build.0 = Release|Any CPU
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7EFBD612-2274-440F-9195-067AF21379DF}.Release|iPhone.Build.0 = Release|iPhone
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{7F7877EE-33EF-4B9E-B685-410C300EBBC9}.Release|iPhone.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
